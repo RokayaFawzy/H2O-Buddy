@@ -2,7 +2,7 @@ class Ingredient {
   final String foodName;
   final int calories;
   final String imageUrl;
-  final double price;
+  final int price;
   int count;
 
   Ingredient({
@@ -18,7 +18,7 @@ class Ingredient {
       foodName: json['food_name'],
       calories: json['calories'],
       imageUrl: json['image_url'],
-      price: 12, 
+      price: 12,
     );
   }
 }
