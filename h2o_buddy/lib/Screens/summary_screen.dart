@@ -261,7 +261,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
                       );
 
                       final ok = await placeOrder();
-                      Navigator.of(context).pop(); // close the loading dialog
+                      Navigator.of(context).pop(); 
 
                       if (ok) {
                         Navigator.of(
